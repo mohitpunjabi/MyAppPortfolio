@@ -10,7 +10,73 @@
     tools:context="com.mohitpunjabi.myappportfolio.MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/my_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:minWidth="@dimen/main_activity_button_min_width"
+        android:text="@string/popular_movies" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/main_activity_button_margin"
+        android:minWidth="@dimen/main_activity_button_min_width"
+        android:text="@string/stock_hawk" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/main_activity_button_margin"
+        android:minWidth="@dimen/main_activity_button_min_width"
+        android:text="@string/build_it_bigger" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/main_activity_button_margin"
+        android:minWidth="@dimen/main_activity_button_min_width"
+        android:text="@string/material" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/main_activity_button_margin"
+        android:minWidth="@dimen/main_activity_button_min_width"
+        android:text="@string/ubiquitous" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/main_activity_button_margin"
+        android:minWidth="@dimen/main_activity_button_min_width"
+        android:text="@string/capstone" />
+
 </RelativeLayout>
